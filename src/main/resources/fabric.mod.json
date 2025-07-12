@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "isitwaxed",
+	"version": "${version}",
+	"name": "IsItWaxed",
+	"description": "IsItWaxed is a mod that adds a simple HUD element to indicate whether a block is waxed or not. It supports all waxable blocks in the game.",
+	"authors": [
+		"SkyWors"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/isitwaxed",
+		"issues": "https://github.com/skywors/isitwaxed/issues",
+		"sources": "https://github.com/skywors/isitwaxed"
+	},
+	"license": "CC BY 4.0",
+	"icon": "assets/isitwaxed/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"fr.skywors.isitwaxed.client.IsItWaxedClient"
+		],
+		"main": [
+			"fr.skywors.isitwaxed.IsItWaxed"
+		],
+		"modmenu": [
+			"fr.skywors.isitwaxed.client.config.ModMenu"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"fabric": "*",
+		"minecraft": "${minecraft_version}"
+	},
+	"softDependencies": {
+		"reconfigure": "~${reconfigure_version}"
+	},
+	"custom": {
+		"modmenu": {
+
+		}
+	}
+}

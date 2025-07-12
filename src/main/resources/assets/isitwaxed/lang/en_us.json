@@ -1,0 +1,7 @@
+{
+	"reconfigure.title.isitwaxed": "IsItWaxed configuration",
+	"reconfigure.property.isitwaxed.hud_side": "HUD Side",
+	"reconfigure.property.isitwaxed.hud_side.enum.center": "Center",
+	"reconfigure.property.isitwaxed.hud_side.enum.left": "Left",
+	"reconfigure.property.isitwaxed.hud_side.enum.right": "Right"
+}
