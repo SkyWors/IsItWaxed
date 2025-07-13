@@ -50,7 +50,6 @@ dependencies {
 	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 
     modImplementation "maven.modrinth:reconfigure:${project.reconfigure_version}"
-    include "maven.modrinth:reconfigure:${project.reconfigure_version}"
 }
 
 processResources {

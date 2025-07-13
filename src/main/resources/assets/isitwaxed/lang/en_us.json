@@ -1,7 +1,27 @@
 {
+	"isitwaxed.hud.text.waxed": "Waxed",
+	"isitwaxed.hud.text.not_waxed": "Not waxed",
+	"isitwaxed.reconfigure.missing" : "Reconfigure missing",
+	"isitwaxed.reconfigure.missing.message" : "In order to modify IsItWaxed's config values, you must install the Reconfigure mod. Do you want to?",
 	"reconfigure.title.isitwaxed": "IsItWaxed configuration",
+	"reconfigure.tab.isitwaxed.main": "Main",
+	"reconfigure.headline.isitwaxed.killswitch": "Killswitch",
+	"reconfigure.property.isitwaxed.enabled": "Activate mod",
+	"reconfigure.headline.isitwaxed.positions": "HUD position",
 	"reconfigure.property.isitwaxed.hud_side": "HUD Side",
 	"reconfigure.property.isitwaxed.hud_side.enum.center": "Center",
 	"reconfigure.property.isitwaxed.hud_side.enum.left": "Left",
-	"reconfigure.property.isitwaxed.hud_side.enum.right": "Right"
+	"reconfigure.property.isitwaxed.hud_side.enum.right": "Right",
+	"reconfigure.property.isitwaxed.hud_side.enum.top_left": "Top Left",
+	"reconfigure.property.isitwaxed.hud_side.enum.top_right": "Top Right",
+	"reconfigure.property.isitwaxed.hud_side.enum.top_center": "Top Center",
+	"reconfigure.property.isitwaxed.hud_side.enum.bottom_left": "Bottom Left",
+	"reconfigure.property.isitwaxed.hud_side.enum.bottom_right": "Bottom Right",
+	"reconfigure.headline.isitwaxed.features": "Features",
+	"reconfigure.property.isitwaxed.is_axe_needed": "Axe/Honeycomb in hand needed?",
+	"reconfigure.tab.isitwaxed.design": "Design",
+	"reconfigure.headline.isitwaxed.design": "Icon design",
+	"reconfigure.property.isitwaxed.color_waxed": "Waxed color",
+	"reconfigure.property.isitwaxed.color_notwaxed": "Not waxed color",
+	"reconfigure.property.isitwaxed.text_shadow": "Text shadow"
 }

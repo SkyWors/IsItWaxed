@@ -32,12 +32,12 @@
 		"fabric": "*",
 		"minecraft": "${minecraft_version}"
 	},
-	"softDependencies": {
+	"recommends": {
 		"reconfigure": "~${reconfigure_version}"
 	},
 	"custom": {
 		"modmenu": {
-
+			"update_checker": true
 		}
 	}
 }
